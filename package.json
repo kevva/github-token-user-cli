@@ -1,0 +1,43 @@
+{
+  "name": "github-token-user-cli",
+  "version": "0.0.0",
+  "description": "Get the GitHub user from a token",
+  "license": "MIT",
+  "repository": "kevva/github-token-user-cli",
+  "author": {
+    "name": "Kevin Martensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva"
+  },
+  "bin": {
+    "github-token-user": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "github",
+    "token",
+    "user"
+  ],
+  "dependencies": {
+    "github-token-user": "^3.0.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.4.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
